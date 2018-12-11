@@ -1,4 +1,32 @@
-# AngularDemo
+# Respresso Angular demo.
+
+## Configuration
+
+In *respresso.json* you can customize:
+- projectToken: Change it to you project's token
+- targetDirectory: optional, defaults to *respresso*
+- resources: only import what you need and you can change the version number, too
+
+## Include resources into your web application
+
+To start using Respresso in your app takes almost zero time and effort. After configuring your Respresso project, just issue `npm run sync` and you can start using your resources.
+
+### Localization
+
+This demo uses [@ngx-translate](https://github.com/ngx-translate/core), so you can find all relevant info there. Respresso files are imported in *src/app/app.module.ts*.
+
+### SASS
+
+You need to import the color definitions in every scss files :( You can find a sample in *src/app/app.component.scss*.
+
+### Images
+
+Find a sample use of svg in *src/app/app.component.ts*.
+
+### Fonts
+
+TBD
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
