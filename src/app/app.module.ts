@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 
 class CustomLoader implements TranslateLoader {
   getTranslation(lang: string): Observable<any> {
-      return of(require(`../../respresso/localization/localization-${lang}.json`));
+      return of(require(`../../respresso/localization/respresso.strings-${lang}.json`));
   }
 }
 

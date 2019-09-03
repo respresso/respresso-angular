@@ -27,7 +27,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/bootstrap.css",
+              "src/bootstrap-reboot.css"
             ],
             "scripts": []
           },
