@@ -60,6 +60,15 @@ npm install respresso --dev
 
 # Respresso Angular demo.
 
+## Try it
+
+1. Install any packages that it depends on   
+```npm install```
+2. Sync resource files   
+```npm run sync```
+3. Start running the server  
+```npm run start```
+
 ### Localization
 
 This demo uses [@ngx-translate](https://github.com/ngx-translate/core), so you can find all relevant info there. Respresso files are imported in *src/app/app.module.ts*.
