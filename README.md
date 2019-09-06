@@ -6,7 +6,6 @@ It allows you to simply import the latest assets into your workspace.
 You may store several versions of the same resource in the cloud and pick the ones you need to import.
 Respresso currently supports five types of resources:
 * Images
-* App icons
 * Localization
 * Fonts
 * Colors
@@ -29,7 +28,6 @@ In *respresso.json* you can customize:
 
 The currently accepted resource names are:
 * image
-* appIcon
 * color
 * localization
 * font
@@ -67,7 +65,7 @@ npm install respresso --dev
 2. Sync resource files   
 ```npm run sync```
 3. Start running the server  
-```npm run start```
+```npm start```
 
 ### Localization
 
@@ -83,7 +81,7 @@ Find a sample use of svg in *src/app/app.component.ts*.
 
 ### Fonts
 
-TBD
+Find a sample use of fonts in *src/styles.scss*.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.

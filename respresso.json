@@ -12,19 +12,19 @@
 			"group": "sass",
 			"version": "1.0.0"
 		},
-    {
-      "category": "image",
-      "group": "scss",
-      "version": "1.0.0"
-    },
-    {
-      "category": "image",
-      "group": "web",
-      "version": "1.0.0"
-    },
+    	{
+    	 	"category": "image",
+    	 	"group": "scss",
+    	 	"version": "1.0.0"
+    	},
+    	{
+    		"category": "image",
+    		"group": "web",
+    		"version": "1.0.0"
+    	},
 		{
 			"category": "font",
-			"group": "font",
+			"group": "simple",
 			"version": "1.0.0"
 		}
 	]
