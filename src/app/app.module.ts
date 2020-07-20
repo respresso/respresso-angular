@@ -1,14 +1,15 @@
 declare var require: any;
 
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { Injectable, NgModule } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { AppComponent } from './app.component';
 
-class CustomLoader implements TranslateLoader {
+@Injectable()
+export class CustomLoader implements TranslateLoader {
   getTranslation(lang: string): Observable<any> {
-      return of(require(`../../respresso/localization/respresso.strings-${lang}.json`));
+      return of(require(`src/respresso/localization/respresso.strings-${lang}.json`));
   }
 }
 

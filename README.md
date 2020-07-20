@@ -78,14 +78,11 @@ You need to import the color definitions in every scss files :( You can find a s
 
 ### Images
 
-Find a sample use of svg in *src/app/app.component.ts*.
+Find a sample use of svg in *src/app/app.component.html*.
 
 ### Fonts
 
 Find a sample use of fonts in *src/styles.scss*.
-
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
 ## Development server
 

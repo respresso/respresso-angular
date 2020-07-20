@@ -1,14 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@import '../respresso/respresso-colors';
+@import 'src/respresso/respresso-colors';
 
 @font-face {
 	font-family: "OpenSans";
-	src: url("../respresso/font/open_sans_regular.ttf") format("truetype");
+	src: url("../src/respresso/font/open_sans_regular.ttf") format("truetype");
 	font-weight: 400;
   }
 @font-face {
 	font-family: "OpenSans";
-	src: url("../respresso/font/open_sans_bold.ttf") format("truetype");
+	src: url("../src/respresso/font/open_sans_bold.ttf") format("truetype");
 	font-weight: 700;
 }
 

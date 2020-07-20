@@ -1,6 +1,7 @@
 {
 	"serverUrl": "https://app.respresso.io",
 	"projectToken": "ec9a1576-7fc9-416e-9f7b-414ea2123cde",
+	"targetDirectory": "src",
 	"resources": [
 		{
 			"category": "localization",

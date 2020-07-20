@@ -43,5 +43,5 @@ testem.log
 Thumbs.db
 
 target
-respresso
+src/respresso
 respresso.lock
